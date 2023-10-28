@@ -16,8 +16,9 @@
 https://developer.android.com/studio/command-line/variables?hl=ja
 1. 環境変数`ANDROID_HOME`を追加する。  
 `C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
-  ※起動中の`PowerShell`には、環境変数の変更反映されません。  
-　　→環境変数を追加時は、`PowerShell`を再起動してください。
+> **NOTE**
+> 起動中の`PowerShell`には、環境変数の変更反映されません。  
+> →環境変数を追加時は、`PowerShell`を再起動してください。
 1. android-studio-dirを追加する。  
  `flutter config --android-studio-dir=<directory>`
 1. Android SDK のライセンスを承諾する。  
@@ -27,17 +28,20 @@ https://developer.android.com/studio/command-line/variables?hl=ja
 
 ## 設定
 ### 開発者モードを有効にする。
-|管理者権限でコマンドプロンプトを実行する。  
 `start ms-settings:developers`
+> **NOTE**
+> 管理者権限でコマンドプロンプトを実行する。 
 
 ## リポジトリのforkする。
 - リポジトリを`fork`する
 ## コード生成
 - `dart run build_runner build`
-## roverをインストールする。(管理者権限でPowerShellを実行)
+## roverをインストールする。()
 - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
-※PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を変更する必要がある。  
-  `Set-ExecutionPolicy RemoteSigned -Scope Process`
+> **NOTE**
+> 管理者権限でPowerShellを実行する。
+> PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を変更する必要がある。  
+> `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ## key.propertiesの作成
 1. KEYTOOLのパスを通す。
