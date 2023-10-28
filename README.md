@@ -28,7 +28,7 @@ https://developer.android.com/studio/command-line/variables?hl=ja
 
 ## 設定
 ### 開発者モードを有効にする。
-`start ms-settings:developers`
+コマンドプロンプトより`start ms-settings:developers`を実行する。
 > **NOTE**
 > 管理者権限でコマンドプロンプトを実行する。 
 
