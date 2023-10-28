@@ -9,7 +9,8 @@
 - [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
 - 環境変数に`ANDROID_HOME`を追加する。  
 `C:\Users\ユーザー名\AppData\Local\Android\Sdk`  
-※環境変数が反映されないため、環境変数を追加時は、PowerShellを再起動する。
+  ※起動中のPowerShellbには、環境変数の変更反映されません。
+　　→環境変数を追加時は、PowerShellを再起動してください。
 - android-studio-dirを追加する。  
  `flutter config --android-studio-dir=<directory>`
 - `flutter doctor --android-licenses`を実行する。
