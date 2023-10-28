@@ -12,7 +12,8 @@
 
 ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
-
+1. 環境変数`ANDROID_HOME`を追加する。  
+https://developer.android.com/studio/command-line/variables?hl=ja
 1. 環境変数`ANDROID_HOME`を追加する。  
 `C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
   ※起動中の`PowerShell`には、環境変数の変更反映されません。  
