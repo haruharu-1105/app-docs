@@ -3,8 +3,9 @@
 必要なもの
 
 ## Flutterのセットアップ
-- [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
-  
+1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
+1. `flutter doctor`を実行し、足りないコンポーネントをインストールする。
+
 ## Android Studioのセットアップ
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
 1. 環境変数に`ANDROID_HOME`を追加する。  
