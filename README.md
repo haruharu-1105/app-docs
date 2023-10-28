@@ -1,6 +1,8 @@
 # 開発者向け　セットアップ導入手順書
-初期導入
-必要なもの
+- 前提
+  Windowsを利用している開発者
+- 目的
+  開発環境の構築
 
 ## Flutterのセットアップ
 1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
