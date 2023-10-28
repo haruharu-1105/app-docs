@@ -24,6 +24,13 @@ https://developer.android.com/studio/command-line/variables?hl=ja
 1. Android SDK のライセンスを承諾する。  
    `flutter doctor --android-licenses`を実行する。
 
+## roverのインストール
+- [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
+> **NOTE**
+> 管理者権限でPowerShellを実行する。
+> PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。  
+> `Set-ExecutionPolicy RemoteSigned -Scope Process`
+
 ---
 
 ## 設定
@@ -36,12 +43,6 @@ https://developer.android.com/studio/command-line/variables?hl=ja
 - リポジトリを`fork`する
 ## コード生成
 - `dart run build_runner build`
-## roverをインストールする。()
-- [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
-> **NOTE**
-> 管理者権限でPowerShellを実行する。
-> PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を変更する必要がある。  
-> `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ## key.propertiesの作成
 1. KEYTOOLのパスを通す。
