@@ -6,12 +6,15 @@
 ## ソフトウェアのインストール
 ### Flutterのインストール
 1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
+1.  環境変数`PATH`を追加する。 
+   `<install directory>\flutter\bin`
 1. `flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
 
 ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
-1. 環境変数に`ANDROID_HOME`を追加する。  
-`C:\Users\ユーザー名\AppData\Local\Android\Sdk`  
+
+1. 環境変数`ANDROID_HOME`を追加する。  
+`C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
   ※起動中の`PowerShell`には、環境変数の変更反映されません。  
 　　→環境変数を追加時は、`PowerShell`を再起動してください。
 1. android-studio-dirを追加する。  
@@ -36,3 +39,5 @@
   `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ## key.propertiesの作成
+1. 環境変数`PATH`を追加する。 
+
