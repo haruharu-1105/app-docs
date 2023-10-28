@@ -40,4 +40,5 @@
 
 ## key.propertiesの作成
 1. 環境変数`PATH`を追加する。 
+`C:\Program Files\Android\Android Studio\jre\bin`
 
