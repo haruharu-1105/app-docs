@@ -19,8 +19,6 @@ https://developer.android.com/studio/command-line/variables?hl=ja
 > **NOTE**
 > 起動中の`PowerShell`には、環境変数の変更反映されません。  
 > →環境変数を追加時は、`PowerShell`を再起動してください。
-1. android-studio-dirを追加する。  
- `flutter config --android-studio-dir=<directory>`
 1. Android SDK のライセンスを承諾する。  
    `flutter doctor --android-licenses`を実行する。
 
