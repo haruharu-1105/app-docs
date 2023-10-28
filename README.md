@@ -39,6 +39,7 @@
   `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ## key.propertiesの作成
-1. 環境変数`PATH`を追加する。 
-`C:\Program Files\Android\Android Studio\jre\bin`
+1. KEYTOOLのパスを通す。
+　環境変数`PATH`を追加する。 
+`C:\Program Files\Android\Android Studio\jbr\bin`
 
