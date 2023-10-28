@@ -1,8 +1,7 @@
 # 開発者向け　セットアップ導入手順書
-- 前提
-  Windowsを利用している開発者
-- 目的
-  開発環境の構築
+
+前提知識: デスクトップPC(Windows)を使用するソフトウェア開発者  
+到達目標: 開発環境の構築  
 
 ## ソフトウェアのインストール
 ### Flutterのインストール
@@ -19,8 +18,12 @@
  `flutter config --android-studio-dir=<directory>`
 1. Android SDK のライセンスを承諾する。  
    `flutter doctor --android-licenses`を実行する。
+
+---
+
 ## 設定
-### 開発者モードを有効にする。(管理者権限でコマンドプロンプトを実行)  
+### 開発者モードを有効にする。
+|管理者権限でコマンドプロンプトを実行する。  
 `start ms-settings:developers`
 
 ## リポジトリのforkする。
