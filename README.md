@@ -4,7 +4,7 @@
 
 ## Flutterのセットアップ
 1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
-1. `flutter doctor`を実行し、足りないコンポーネントをインストールする。
+1. `flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
 
 ## Android Studioのセットアップ
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
