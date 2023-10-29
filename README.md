@@ -64,14 +64,14 @@ flutter doctor --android-licenses
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope Process
 > ```
-### リポジトリをfork
+- ### リポジトリをfork
 1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
 1. ローカルにリポジトリを作成する。
 
 ---
 
 ## 2. 設定
-### 開発者モードを有効化
+- ### 開発者モードを有効化
 1. `PowerShell`より`start ms-settings:developers`を実行する。
 ```
 start ms-settings:developers
@@ -79,7 +79,7 @@ start ms-settings:developers
 > **NOTE**
 > 管理者権限でコマンドプロンプトを実行する。 
 
-### key.propertiesの作成
+- ### key.propertiesの作成
 フォルダ構成図
 ```
 C:\GitHub\aipictors\app\android\
@@ -105,23 +105,23 @@ storeFile=key.jks
 > **NOTE**  
 > ファイルの文字コード形式はUTF-8で保存する。
 
-### Androidエミュレータを作成
+- ### Androidエミュレータを作成
 
 1. Android Studioを実行する。  
 `C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
 1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
 
-### 本家の手順書を実行
+- ### 本家の手順書を実行
 1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
 
-### VSCodeの設定
+- ### VSCodeの設定
 1. VSCodeで拡張機能の`Flutter`をインストールする。  
 1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
 
 ---
 
 ## 3. 実行
-### VSCode
+- ### VSCode
 1. Android エミュレータを起動する。
 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
 Android エミュレータが起動し、Android エミュレータの画面が表示されます。
