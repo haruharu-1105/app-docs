@@ -54,15 +54,16 @@
 2. 作成した`key.jks`ファイルを以下のフォルダに設置する。
 `C:\GitHub\aipictors\app\android`
 
-3. key.propertiesを作成する。
-`
+3. key.propertiesを作成する。  
+```
 storePassword=<入力したパスワード>
 keyPassword=<入力したパスワード>
-keyAlias=key
-storeFile=key.jks
-`
-> **NOTE**
-> ファイルの文字コード形式はUTF-8
+keyAlias=key  
+storeFile=key.jks  
+```
+> **NOTE**  
+> ファイルの文字コード形式はUTF-8で保存する。
+
 ---
 
 ## 実行
