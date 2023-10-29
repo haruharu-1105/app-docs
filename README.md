@@ -17,9 +17,9 @@ Android avd…8.64 GB
 1. [実行](#実行)
 
 > **NOTE**
-> エラー解決方法  
-> 1. [Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)を開き、エラーメッセージを貼り付ける。
-> 2. `解決方法を教えてください`を追加しチャット送信する。
+> エラー解決方法
+> 1.[bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。
+> 2. `日本語で解決してください`を追加しチャット送信する。
 > 3. 対処方法を教えて貰えます。
 
 ---
