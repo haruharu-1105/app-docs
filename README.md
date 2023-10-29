@@ -62,11 +62,11 @@ Android avd…8.64 GB
 - ### roverのインストール
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
     - 管理者権限の`PowerShell`より以下のコマンドを実行する。
-      ```
-      Set-ExecutionPolicy RemoteSigned -Scope Process
-      ```
-      > **NOTE**
-      > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要があるため。 
+        ```
+        Set-ExecutionPolicy RemoteSigned -Scope Process
+        ```
+        > **NOTE**
+        > ファイルダウンロードのために、PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。 
 - ### リポジトリをfork
   - [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
   -  ローカルにリポジトリを作成する。
