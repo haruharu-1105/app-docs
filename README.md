@@ -51,4 +51,18 @@
 ## key.propertiesの作成
 1. `keytool`を実行する。  
 `C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe`
+2. 作成した`key.jks`ファイルを以下のフォルダに設置する。
+`C:\GitHub\aipictors\app\android`
 
+3. key.propertiesを作成する。
+`
+storePassword=<入力したパスワード>
+keyPassword=<入力したパスワード>
+keyAlias=key
+storeFile=key.jks
+`
+> **NOTE**
+> ファイルの文字コード形式はUTF-8
+---
+
+## 実行
