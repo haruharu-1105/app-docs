@@ -15,6 +15,8 @@
 1.  環境変数`PATH`に`Flutter`を追加する。   
    `<install directory>\flutter\bin`
 1. `flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
+> **NOTE**
+> No issues found!が表示されるまで`flutter doctor`を実行する。
 
 ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
