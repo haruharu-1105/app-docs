@@ -10,9 +10,9 @@
 
 
 > **NOTE**
-> 問題発生時、
+> 問題発生時は、
 [Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
-にエラーメッセージを貼り付け後、「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
+にエラーメッセージを貼り付けた後、「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
 
 ---
 
@@ -67,7 +67,7 @@ C:\GitHub\aipictors\app\android\
 `C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe`
 2. 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
 
-3. key.propertiesを作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
+3. `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
 ```key.properties
 storePassword=<入力したパスワード>
 keyPassword=<入力したパスワード>
