@@ -55,11 +55,11 @@ Android avd…8.64 GB
 - ### roverのインストール
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
   > **NOTE**
-  > 管理者権限で`PowerShell`より以下を実行する。
-  > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
+  > 管理者権限のPowerShellより以下のコマンドを実行します。
   > ```
   > Set-ExecutionPolicy RemoteSigned -Scope Process
   > ```
+  > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要があるため。 
 - ### リポジトリをfork
   - [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
   -  ローカルにリポジトリを作成する。
@@ -68,7 +68,7 @@ Android avd…8.64 GB
 
 ## 2. 設定
 - ### 開発者モードを有効化
-  -  管理者権限の`PowerShell`より以下を実行する。  
+  -  管理者権限のPowerShellより、以下を実行します。
     ```
     start ms-settings:developers
     ```
@@ -103,7 +103,7 @@ storeFile=key.jks
 
   1. Android Studioを実行する。  
 `C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
-  1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
+  1. Device Managerを開き、Create Deviceを選択し、ダイアログの指示に従ってエミュレータを作成する。  
 
 - ### 本家の手順書を実行
 1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
@@ -116,7 +116,7 @@ storeFile=key.jks
 
 ## 3. 実行
 - ### VSCode
-1. Android エミュレータを起動する。
+1. Android エミュレータを起動します。
 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
 Android エミュレータが起動し、Android エミュレータの画面が表示されます。
 > **NOTE**
