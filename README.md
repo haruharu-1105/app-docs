@@ -71,27 +71,27 @@ Android avd…8.64 GB
 
 ## 2. 設定
 - ### 開発者モードを有効化
-  -  管理者権限の`PowerShell`より以下を実行する。
-  ```
-  start ms-settings:developers
-  ```
-
+  -  管理者権限の`PowerShell`より以下を実行する。  
+    ```
+    start ms-settings:developers
+    ```
 - ### key.propertiesの作成
-フォルダ構成図
-```
-C:\GitHub\aipictors\app\android\
-                               ├ key.jks
-                               └ key.properties
-```
+> **NOTE**  
+> フォルダ構成図
+> ```
+> C:\GitHub\aipictors\app\android\
+>                                  ├ key.jks
+>                                  └ key.properties
+> ```
 
-  1. `keytool`を実行する。  
-```
-"C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
-```
+  -   `keytool`を実行する。  
+  ```
+  "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
+  ```
 
-  2. 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
+  -   作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
 
-  3. `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
+  -   `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
 key.properties
 ```key.properties
 storePassword=<入力したパスワード>
