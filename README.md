@@ -5,14 +5,15 @@
 必要ディスク容量：8GB
 到達目標: ピクターズの開発環境の構築 
 
-## 手順の大まかな流れ
-ソフトウェアのインストール→設定→実行です。
-
+## 作業手順の流れ
+1. [ソフトウェアのインストール](#ソフトウェアのインストール)
+1. [設定](#設定)
+1. [実行](#実行)
 
 > **NOTE**
 > 問題発生時は、
 [Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
-にエラーメッセージを貼り付けた後、「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
+にエラーメッセージを貼り付け「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
 
 ---
 
@@ -35,7 +36,7 @@
 3. Android SDK のライセンスを承諾する。  
   `PowerShell`より`flutter doctor --android-licenses`を実行する。
 
-## roverのインストール
+### roverのインストール
 - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
 > **NOTE**
 > 管理者権限で`PowerShell`を実行する。  
@@ -50,12 +51,12 @@
 > **NOTE**
 > 管理者権限でコマンドプロンプトを実行する。 
 
-## リポジトリをforkする。
-- [aipictors/app](https://github.com/aipictors/app)のリポジトリを`fork`する
-## コード生成
+### リポジトリをforkする。
+- [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`をする。
+### コード生成
 - `dart run build_runner build`
 
-## key.propertiesの作成
+### key.propertiesの作成
 フォルダ構成図
 ```
 C:\GitHub\aipictors\app\android\
@@ -77,6 +78,13 @@ storeFile=key.jks
 > **NOTE**  
 > ファイルの文字コード形式はUTF-8で保存する。
 
+### VSCodeの設定
+1.VSCodeで拡張機能の`Flutter`をインストールする
+
 ---
 
 ## 実行
+### VSCodeの設定
+
+
+
