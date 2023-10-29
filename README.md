@@ -13,8 +13,8 @@ Android avd…8.64 GB
 -->
 ## 作業手順
 1. [ソフトウェアのインストール](#1-ソフトウェアのインストール)
-1. [設定](#設定)
-1. [実行](#実行)
+1. [設定](#2-設定)
+1. [実行](#3-実行)
 
 > **NOTE**
 > エラー発生時の解決方法  
@@ -28,8 +28,9 @@ Android avd…8.64 GB
 - ### Flutterのインストール
     1.  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。
     2.  環境変数`PATH`にFlutterを追加する。
-
-
+~~~
+<install directory>\flutter\bin
+~~~
     3.  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
 ~~~flutter doctor
 flutter doctor
@@ -37,7 +38,7 @@ flutter doctor
 
 4.  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。
 
-- ### Android Studioのインストール
+- ### 1. Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
 1. 環境変数`ANDROID_HOME`を追加する。
 ```
@@ -69,7 +70,7 @@ flutter doctor --android-licenses
 
 ---
 
-## 設定
+## 2. 設定
 ### 開発者モードを有効化
 1. `PowerShell`より`start ms-settings:developers`を実行する。
 ```
@@ -119,7 +120,7 @@ storeFile=key.jks
 
 ---
 
-## 実行
+## 3. 実行
 ### VSCode
 1. Android エミュレータを起動する。
 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
