@@ -1,10 +1,16 @@
-# 開発者向け　セットアップ導入手順書
+# 開発者向け　アプリ開発環境の構築手順書
 
-前提知識: デスクトップPC(Windows)を使用するソフトウェア開発者  
-前提条件:  [Git](https://git-scm.com/)がインストール済み。GitHubのアカウントが存在する。   
-必要ディスク容量：12GB   
-到達目標: ピクターズの開発環境の構築 
-
+前提知識: デスクトップPC(Windows)を使用するソフトウェア開発経験者  
+前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済み。GitHubのアカウントが存在する。   
+必要ディスク容量：22GB   
+到達目標: ピクターズのアプリ開発環境の構築 
+<!-- 容量計算
+Flutter…2.07 GB
+Android Studio…8 GB
+https://developer.android.com/studio/install?hl=ja#windows
+Android avd…8.64 GB
+リポジトリ…20.4 MB
+-->
 ## 作業手順の流れ
 1. [ソフトウェアのインストール](#ソフトウェアのインストール)
 1. [設定](#設定)
