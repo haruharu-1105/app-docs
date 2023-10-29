@@ -46,7 +46,7 @@ Android avd…8.64 GB
        > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
   - Android SDK のライセンスを承諾する。  
-    `PowerShell`より以下コマンドを実行する。  
+    `PowerShell`より以下のコマンドを実行する。  
        ```
        flutter doctor --android-licenses
        ```
@@ -67,7 +67,7 @@ Android avd…8.64 GB
 
 ## 2. 設定
 - ### 開発者モードを有効化
-  -  管理者権限のPowerShellより、以下を実行します。
+  -  管理者権限のPowerShellより以下のコマンドを実行する。  
     ```
     start ms-settings:developers
     ```
@@ -94,29 +94,33 @@ Android avd…8.64 GB
   > ```
 - ### Androidエミュレータを作成
 
-  1. Android Studioを実行する。  
-`C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
-  1. Device Managerを開き、Create Deviceを選択し、ダイアログの指示に従ってエミュレータを作成する。  
+  - Android Studioを実行する。  
+    以下コマンドを実行する。
+    ```
+    C:\Program Files\Android\Android Studio\bin\studio64.exe
+    ``` 
+    - `Device Manager`を開き、Create Deviceを選択し、ダイアログの指示に従ってエミュレータを作成する。  
 
 - ### 本家の手順書を実行
-1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
+  - [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
 
 - ### VSCodeの設定
-1. VSCodeで拡張機能の`Flutter`をインストールする。  
-1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
+  - VSCodeで拡張機能の`Flutter`をインストールする。  
+  - ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
 
 ---
 
 ## 3. 実行
 - ### VSCode
-1. Android エミュレータを起動します。
-画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
-Android エミュレータが起動し、Android エミュレータの画面が表示されます。
-> **NOTE**
-> 1. VSCodeのステータスバーの表示が`android emulator`に変わる。
-> 2. Android エミュレータの起動に成功すると、タイトル名が「Android Emulator」のウィンドウが立ち上がります。
+  - Android エミュレータを起動します。  
+    - 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
+    - Android エミュレータが起動し、Android エミュレータの画面が表示されます。
+    > **NOTE**
+    > Android エミュレータの起動確認方法
+    > 1. VSCodeのステータスバーの表示が`android emulator`に変わる。
+    > 2. エミュレータの起動に成功すると、タイトル名が「Android Emulator」のウィンドウが起動する。
 
-1. `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
+  - `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
 
 お疲れ様でした。作業終了です。
 
