@@ -1,7 +1,7 @@
 # 開発者向け　アプリ開発環境の構築手順書
 
 前提知識: デスクトップPC(Windows)を使用するソフトウェア開発経験者  
-前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済み。GitHubのアカウントが存在する。  
+前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済。GitHubのアカウントが存在する。  
 必要ディスク容量：22GB  
 到達目標: ピクターズのアプリ開発環境の構築  
 <!-- 容量計算
@@ -17,9 +17,10 @@ Android avd…8.64 GB
 1. [実行](#実行)
 
 > **NOTE**
-> 問題発生時は、
-[Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
-にエラーメッセージを貼り付け「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
+> エラー解決方法  
+> 1. [Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)を開き、エラーメッセージを貼り付ける。
+> 2. `解決方法を教えてください`を追加しチャット送信する。
+> 3. 対処方法を教えて貰えます。
 
 ---
 
@@ -37,8 +38,9 @@ Android avd…8.64 GB
 1. 環境変数`ANDROID_HOME`を追加する。  
 `C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
 > **NOTE**
-> 起動中のPowerShellには、環境変数の変更反映されません。  
-> →環境変数を追加時は、PowerShellを再起動する。 
+> 環境変数を追加時は、PowerShellを再起動する。  
+> 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
+
 3. Android SDK のライセンスを承諾する。  
   `PowerShell`より`flutter doctor --android-licenses`を実行する。
 
@@ -50,7 +52,7 @@ Android avd…8.64 GB
 > `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ### リポジトリをfork
-1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`をする。
+1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
 1. ローカルにリポジトリを作成する。
 
 ---
@@ -89,21 +91,23 @@ storeFile=key.jks
 1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
 
 ### 本家の手順書を実行
-1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
+1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
 
 ### VSCodeの設定
-1. VSCodeで拡張機能の`Flutter`をインストールする
-1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`
+1. VSCodeで拡張機能の`Flutter`をインストールする。  
+1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
 
 ---
 
 ## 実行
 ### VSCode
-1. Android エミュレータを起動する。
-画面右下のステータスバーの`Windows(windows-x64)`をクリックし、[Android エミュレータ]((Android エミュレータを作成)を選択する。
-下部の表示文字に`android emulator`が含まれていたら設定完了です。
-Android エミュレータが起動します。
+1. Android エミュレータを起動する。  
+画面右下のステータスバーの`Windows(windows-x64)`をクリックし、[Android エミュレータ]((Android エミュレータを作成)を選択する。  
+下部の表示文字に`android emulator`が含まれていたら設定完了です。  
+Android エミュレータが起動し画面が表示されます。
+> **NOTE**  
+> Android エミュレータのタイトル名に5551が表示されていたら成功です。
 
-1. VSCodeの左側の「実行とデバック」より`develop`を実行する。
+1. `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
 
-お疲れ様でした。
+お疲れ様でした。作業終了です。
