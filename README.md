@@ -85,6 +85,7 @@ storeFile=key.jks
 
 ## 実行
 ### VSCodeの設定
+ファイル→フォルダを開く、`C:\GitHub\aipictors\app`
 
-
-
+お疲れ様でした。
+あとは、[本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
