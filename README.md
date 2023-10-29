@@ -16,11 +16,8 @@ Android avd…8.64 GB
 1. [設定](#2-設定)  
 1. [実行](#3-実行)  
 
-> **NOTE**
-> エラー発生時の解決方法  
-> 1.[Bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。  
-> 2. `日本語で解決してください`を追加しチャット送信する。  
-> 3. 解決方法を教えて貰えます。  
+> **NOTE**  
+> [エラー発生時の解決方法](エラー発生時の解決方法)
 
 ---
 
@@ -35,7 +32,7 @@ Android avd…8.64 GB
   ~~~
   flutter doctor
   ~~~
-  -  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。  
+  -  `flutter doctor`はNo issues found!が表示されるまで繰り返し実行する。  
 
 - ### Android Studioのインストール
   - [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。  
@@ -129,3 +126,11 @@ Android エミュレータが起動し、Android エミュレータの画面が�
 1. `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
 
 お疲れ様でした。作業終了です。
+
+---
+
+## 参考情報
+### エラー発生時の解決方法
+  1.[Bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。  
+  2. `日本語で解決してください`を追加しチャット送信する。  
+  3. 解決方法を教えて貰えます。  
