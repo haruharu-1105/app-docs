@@ -17,7 +17,7 @@ Android avd…8.64 GB
 1. [実行](#実行)
 
 > **NOTE**
-> エラー発生時の解決方法
+> エラー発生時の解決方法  
 > 1.[bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。  
 > 2. `日本語で解決してください`を追加しチャット送信する。  
 > 3. 解決方法を教えて貰えます。  
@@ -27,30 +27,43 @@ Android avd…8.64 GB
 ## ソフトウェアのインストール
 ### Flutterのインストール
 1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
-1.  環境変数`PATH`にFlutterを追加する。   
-   `<install directory>\flutter\bin`
+1.  環境変数`PATH`にFlutterを追加する。
+```  
+<install directory>\flutter\bin
+```
 1. `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
+```
+flutter doctor
+```
 > **NOTE**
 > `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。
 
 ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
-1. 環境変数`ANDROID_HOME`を追加する。  
-`C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
+1. 環境変数`ANDROID_HOME`を追加する。
+```
+C:\Users\%USERNAME%\AppData\Local\Android\Sdk
+```
+実際のパスに置き換えてください。
+
 > **NOTE**
 > 環境変数を追加時は、PowerShellを再起動する。  
 > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
 3. Android SDK のライセンスを承諾する。  
   `PowerShell`より`flutter doctor --android-licenses`を実行する。  
+```
+flutter doctor --android-licenses
+```
 
 ### roverのインストール
 1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
 > **NOTE**
 > 管理者権限で`PowerShell`を実行する。  
 > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
-> `Set-ExecutionPolicy RemoteSigned -Scope Process`
-
+> ```
+> Set-ExecutionPolicy RemoteSigned -Scope Process
+> ```
 ### リポジトリをfork
 1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
 1. ローカルにリポジトリを作成する。
@@ -60,6 +73,9 @@ Android avd…8.64 GB
 ## 設定
 ### 開発者モードを有効化
 1. `PowerShell`より`start ms-settings:developers`を実行する。
+```
+start ms-settings:developers
+```
 > **NOTE**
 > 管理者権限でコマンドプロンプトを実行する。 
 
@@ -72,10 +88,14 @@ C:\GitHub\aipictors\app\android\
 ```
 
 1. `keytool`を実行する。  
-`C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe`
+```
+"C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
+```
+
 2. 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
 
 3. `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
+key.properties
 ```key.properties
 storePassword=<入力したパスワード>
 keyPassword=<入力したパスワード>
