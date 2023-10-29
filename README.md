@@ -5,16 +5,16 @@
 必要ディスク容量：22GB  
 到達目標: ピクターズのアプリ開発環境の構築  
 <!-- 容量計算
-Flutter…2.07 GB
-Android Studio…8 GB
-https://developer.android.com/studio/install?hl=ja#windows
-Android avd…8.64 GB
-リポジトリ…20.4 MB
+Flutter…2.07 GB  
+Android Studio…8 GB  
+https://developer.android.com/studio/install?hl=ja#windows  
+Android avd…8.64 GB  
+リポジトリ…20.4 MB  
 -->
-## 作業手順
-1. [ソフトウェアのインストール](#1-ソフトウェアのインストール)
-1. [設定](#2-設定)
-1. [実行](#3-実行)
+## 作業手順  
+1. [ソフトウェアのインストール](#1-ソフトウェアのインストール)  
+1. [設定](#2-設定)  
+1. [実行](#3-実行)  
 
 > **NOTE**
 > エラー発生時の解決方法  
@@ -26,40 +26,39 @@ Android avd…8.64 GB
 
 ## 1. ソフトウェアのインストール
 - ### Flutterのインストール
-    1.  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。
-    2.  環境変数`PATH`にFlutterを追加する。
-~~~
-<install directory>\flutter\bin
-~~~
-    3.  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
-~~~flutter doctor
-flutter doctor
-~~~
+  1.  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。  
+  2.  環境変数`PATH`にFlutterを追加する。  
+  ~~~
+  <install directory>\flutter\bin
+  ~~~
+  3.  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。  
+  ~~~
+  flutter doctor
+  ~~~
+  4.  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。  
 
-4.  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。
-
-- ### 1. Android Studioのインストール
-1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
-1. 環境変数`ANDROID_HOME`を追加する。
-```
-C:\Users\%USERNAME%\AppData\Local\Android\Sdk
-```
-explorerで開き実際のパスに置き換える。
+- ### Android Studioのインストール
+  1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。  
+  1. 環境変数`ANDROID_HOME`を追加する。  
+  ```
+  C:\Users\%USERNAME%\AppData\Local\Android\Sdk
+  ```
+  explorerで開き実際のパスに置き換える。
 
 > **NOTE**
 > 環境変数を追加時は、PowerShellを再起動する。  
 > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
-3. Android SDK のライセンスを承諾する。  
-  `PowerShell`より`flutter doctor --android-licenses`を実行する。  
-```
-flutter doctor --android-licenses
-```
+  3. Android SDK のライセンスを承諾する。  
+    `PowerShell`より`flutter doctor --android-licenses`を実行する。  
+  ```
+  flutter doctor --android-licenses
+  ```
 
 - ### roverのインストール
 1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
 > **NOTE**
-> 管理者権限で`PowerShell`を実行する。  
+> 管理者権限で`PowerShell`より以下を実行する。
 > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
 > ```
 > Set-ExecutionPolicy RemoteSigned -Scope Process
