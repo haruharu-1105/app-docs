@@ -17,10 +17,10 @@ Android avd…8.64 GB
 1. [実行](#実行)
 
 > **NOTE**
-> エラー解決方法
-> 1.[bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。
-> 2. `日本語で解決してください`を追加しチャット送信する。
-> 3. 対処方法を教えて貰えます。
+> エラー発生時の解決方法
+> 1.[bard](https://bard.google.com/)を開き、エラーメッセージを貼り付ける。  
+> 2. `日本語で解決してください`を追加しチャット送信する。  
+> 3. 解決方法を教えて貰えます。  
 
 ---
 
@@ -42,7 +42,7 @@ Android avd…8.64 GB
 > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
 3. Android SDK のライセンスを承諾する。  
-  `PowerShell`より`flutter doctor --android-licenses`を実行する。
+  `PowerShell`より`flutter doctor --android-licenses`を実行する。  
 
 ### roverのインストール
 1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
