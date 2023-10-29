@@ -38,8 +38,8 @@
 ## roverのインストール
 - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
 > **NOTE**
-> 管理者権限でPowerShellを実行する。  
-> PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
+> 管理者権限で`PowerShell`を実行する。  
+> `PowerShell`の[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
 > `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
 ---
