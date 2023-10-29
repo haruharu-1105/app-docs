@@ -72,12 +72,10 @@ flutter doctor --android-licenses
 
 ## 2. 設定
 - ### 開発者モードを有効化
-1. `PowerShell`より`start ms-settings:developers`を実行する。
+1. 管理者権限の`PowerShell`より以下を実行する。
 ```
 start ms-settings:developers
 ```
-> **NOTE**
-> 管理者権限でコマンドプロンプトを実行する。 
 
 - ### key.propertiesの作成
 フォルダ構成図
