@@ -11,7 +11,7 @@
 ## ソフトウェアのインストール
 ### Flutterのインストール
 1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
-1.  環境変数`PATH`を追加する。 
+1.  環境変数`PATH`に`Flutter`を追加する。   
    `<install directory>\flutter\bin`
 1. `flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
 
