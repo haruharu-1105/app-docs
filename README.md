@@ -11,7 +11,7 @@
 
 > **NOTE**
 > 問題発生時、
-[bing-chat](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
+[Bingチャット](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
 にエラーメッセージを貼り付け後、「解決方法を教えてください」で質問すると対処方法を教えて貰えます。
 
 ---
