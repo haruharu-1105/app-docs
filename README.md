@@ -4,12 +4,12 @@
 到達目標: ピクターズのアプリ開発環境の構築  
 
 ## システム要件
-- 必要ディスク容量：20GB
-- ツール
+- 必要ディスク容量：20GB  
+- ツール  
   - [Git](https://git-scm.com/)
   - [VSCode](https://code.visualstudio.com/)
-- アカウント
-  - GitHubアカウントが存在する。
+- アカウント  
+  - GitHubアカウント  
 <!-- ディスク容量
 Flutter…2.5 GB
 https://docs.flutter.dev/get-started/install/windows#system-requirements
