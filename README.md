@@ -47,6 +47,6 @@
 - `dart run build_runner build`
 
 ## key.propertiesの作成
-1. `keytool`を実行する。
+1. `keytool`を実行する。  
 `C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe`
 
