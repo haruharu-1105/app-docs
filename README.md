@@ -47,9 +47,9 @@ Android avd…8.64 GB
 
   - Android SDK のライセンスを承諾する。  
     `PowerShell`より以下コマンドを実行する。  
-        ```
-        flutter doctor --android-licenses
-        ```
+       ```
+       flutter doctor --android-licenses
+       ```
 
 - ### roverのインストール
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
