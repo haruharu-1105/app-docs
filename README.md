@@ -1,16 +1,24 @@
 # 開発者向け　アプリ開発環境の構築手順書
 
 前提知識: デスクトップPC(Windows)を使用するソフトウェア開発経験者  
-前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済。GitHubのアカウントが存在する。  
-必要ディスク容量：22GB  
 到達目標: ピクターズのアプリ開発環境の構築  
-<!-- 容量計算
-Flutter…2.07 GB  
+
+## システム要件
+- 必要ディスク容量：20GB
+- ツール
+  - [Git](https://git-scm.com/)
+  - [VSCode](https://code.visualstudio.com/)
+- アカウント
+  - GitHubアカウントが存在する。
+<!-- ディスク容量
+Flutter…2.5 GB
+https://docs.flutter.dev/get-started/install/windows#system-requirements
 Android Studio…8 GB  
 https://developer.android.com/studio/install?hl=ja#windows  
 Android avd…8.64 GB  
-リポジトリ…20.4 MB  
+リポジトリ…287 MB  
 -->
+
 ## 作業手順  
 1. [ソフトウェアのインストール](#1-ソフトウェアのインストール)  
 1. [設定](#2-設定)  
@@ -35,7 +43,7 @@ Android avd…8.64 GB
   -  `flutter doctor`はNo issues found!が表示されるまで繰り返し実行する。  
 
 - ### Android Studioのインストール
-  - [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。  
+  - [Android Studio](https://developer.android.com/studio) をインストールする。  
   - 環境変数`ANDROID_HOME`を追加する。  
      ```
      C:\Users\%USERNAME%\AppData\Local\Android\Sdk
@@ -93,19 +101,13 @@ Android avd…8.64 GB
   >                                └ key.properties
   > ```
 - ### Androidエミュレータを作成
-
-  - Android Studioを実行する。  
-    以下コマンドを実行する。
-    ```
-    C:\Program Files\Android\Android Studio\bin\studio64.exe
-    ``` 
-    - `Device Manager`を開き、Create Deviceを選択し、ダイアログの指示に従ってエミュレータを作成する。  
+  - [Set up the Android emulator](https://docs.flutter.dev/get-started/install/windows#set-up-the-android-emulator)を参考に作成する。
 
 - ### 本家の手順書を実行
   - [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
 
 - ### VSCodeの設定
-  - VSCodeで拡張機能の`Flutter`をインストールする。  
+  - VSCodeの拡張機能`Flutter`をインストールする。  
   - ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
 
 ---
