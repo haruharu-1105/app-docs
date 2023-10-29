@@ -41,7 +41,7 @@ Android avd…8.64 GB
      C:\Users\%USERNAME%\AppData\Local\Android\Sdk
      ```
      パスを`explorer`で開き、実際のパスに置き換える。
-     - PowerShellを再起動する。 
+     - `PowerShell`を再起動する。 
        > **NOTE**
        > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
@@ -53,7 +53,7 @@ Android avd…8.64 GB
 
 - ### roverのインストール
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
-    - 管理者権限のPowerShellより以下のコマンドを実行する。
+    - 管理者権限の`PowerShell`より以下のコマンドを実行する。
       ```
       Set-ExecutionPolicy RemoteSigned -Scope Process
       ```
@@ -67,7 +67,7 @@ Android avd…8.64 GB
 
 ## 2. 設定
 - ### 開発者モードを有効化
-  -  管理者権限のPowerShellより以下のコマンドを実行する。  
+  -  管理者権限の`PowerShell`より以下のコマンドを実行する。  
     ```
     start ms-settings:developers
     ```
