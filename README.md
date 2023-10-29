@@ -106,6 +106,7 @@ storeFile=key.jks
 > ファイルの文字コード形式はUTF-8で保存する。
 
 ### Android エミュレータを作成
+
 1. Android Studioを実行する。  
 `C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
 1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
@@ -126,7 +127,7 @@ storeFile=key.jks
 下部の表示文字に`android emulator`が含まれていたら設定完了です。  
 Android エミュレータが起動し画面が表示されます。
 > **NOTE**  
-> Android エミュレータのタイトル名に5551が表示されていたら成功です。
+> Android エミュレータの起動に成功すると、タイトル名が「Android Emulator」のウィンドウが立ち上がります。
 
 1. `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
 
