@@ -11,8 +11,8 @@ https://developer.android.com/studio/install?hl=ja#windows
 Android avd…8.64 GB
 リポジトリ…20.4 MB
 -->
-## 作業手順の流れ
-1. [ソフトウェアのインストール](#ソフトウェアのインストール)
+## 作業手順
+1. [ソフトウェアのインストール]('#1.ソフトウェアのインストール')
 1. [設定](#設定)
 1. [実行](#実行)
 
@@ -24,21 +24,20 @@ Android avd…8.64 GB
 
 ---
 
-## ソフトウェアのインストール
-### Flutterのインストール
-1. [Flutter](https://docs.flutter.dev/get-started/install/windows) をインストールする。
-1.  環境変数`PATH`にFlutterを追加する。
-```  
-<install directory>\flutter\bin
-```
-1. `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
-```
-flutter doctor
-```
-> **NOTE**
-> `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。
+## 1. ソフトウェアのインストール
+- ### Flutterのインストール
+    1.  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。
+    2.  環境変数`PATH`にFlutterを追加する。
 
-### Android Studioのインストール
+
+    3.  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。
+~~~flutter doctor
+flutter doctor
+~~~
+
+4.  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。
+
+- ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
 1. 環境変数`ANDROID_HOME`を追加する。
 ```
@@ -56,7 +55,7 @@ explorerで開き実際のパスに置き換える。
 flutter doctor --android-licenses
 ```
 
-### roverのインストール
+- ### roverのインストール
 1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
 > **NOTE**
 > 管理者権限で`PowerShell`を実行する。  
