@@ -44,7 +44,7 @@ flutter doctor
 ```
 C:\Users\%USERNAME%\AppData\Local\Android\Sdk
 ```
-実際のパスに置き換えてください。
+explorerで開き実際のパスに置き換える。
 
 > **NOTE**
 > 環境変数を追加時は、PowerShellを再起動する。  
