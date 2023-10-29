@@ -26,20 +26,20 @@ Android avd…8.64 GB
 
 ## 1. ソフトウェアのインストール
 - ### Flutterのインストール
-  1.  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。  
-  2.  環境変数`PATH`にFlutterを追加する。  
+  -  [Flutter SDK](https://docs.flutter.dev/get-started/install/windows) をダウンロードしてインストールする。  
+  -  環境変数`PATH`にFlutterを追加する。  
   ~~~
   <install directory>\flutter\bin
   ~~~
-  3.  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。  
+  -  `PowerShell`より`flutter doctor`を実行し、開発に必要なソフトウェアをインストールする。  
   ~~~
   flutter doctor
   ~~~
-  4.  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。  
+  -  `flutter doctor`は`No issues found!`が表示されるまで繰り返し実行する。  
 
 - ### Android Studioのインストール
-  1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。  
-  1. 環境変数`ANDROID_HOME`を追加する。  
+  - [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。  
+  - 環境変数`ANDROID_HOME`を追加する。  
   ```
   C:\Users\%USERNAME%\AppData\Local\Android\Sdk
   ```
@@ -49,32 +49,32 @@ Android avd…8.64 GB
 > 環境変数を追加時は、PowerShellを再起動する。  
 > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
-  3. Android SDK のライセンスを承諾する。  
+  - Android SDK のライセンスを承諾する。  
     `PowerShell`より`flutter doctor --android-licenses`を実行する。  
   ```
   flutter doctor --android-licenses
   ```
 
 - ### roverのインストール
-1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
-> **NOTE**
-> 管理者権限で`PowerShell`より以下を実行する。
-> PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
-> ```
-> Set-ExecutionPolicy RemoteSigned -Scope Process
-> ```
+  - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
+  > **NOTE**
+  > 管理者権限で`PowerShell`より以下を実行する。
+  > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
+  > ```
+  > Set-ExecutionPolicy RemoteSigned -Scope Process
+  > ```
 - ### リポジトリをfork
-1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
-1. ローカルにリポジトリを作成する。
+  - [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
+  -  ローカルにリポジトリを作成する。
 
 ---
 
 ## 2. 設定
 - ### 開発者モードを有効化
-1. 管理者権限の`PowerShell`より以下を実行する。
-```
-start ms-settings:developers
-```
+  -  管理者権限の`PowerShell`より以下を実行する。
+  ```
+  start ms-settings:developers
+  ```
 
 - ### key.propertiesの作成
 フォルダ構成図
@@ -84,14 +84,14 @@ C:\GitHub\aipictors\app\android\
                                └ key.properties
 ```
 
-1. `keytool`を実行する。  
+  1. `keytool`を実行する。  
 ```
 "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
 ```
 
-2. 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
+  2. 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
 
-3. `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
+  3. `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
 key.properties
 ```key.properties
 storePassword=<入力したパスワード>
@@ -104,9 +104,9 @@ storeFile=key.jks
 
 - ### Androidエミュレータを作成
 
-1. Android Studioを実行する。  
+  1. Android Studioを実行する。  
 `C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
-1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
+  1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
 
 - ### 本家の手順書を実行
 1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
