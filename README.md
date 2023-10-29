@@ -1,9 +1,9 @@
 # 開発者向け　アプリ開発環境の構築手順書
 
 前提知識: デスクトップPC(Windows)を使用するソフトウェア開発経験者  
-前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済み。GitHubのアカウントが存在する。   
-必要ディスク容量：22GB   
-到達目標: ピクターズのアプリ開発環境の構築 
+前提条件:  [Git](https://git-scm.com/)と[VSCode](https://code.visualstudio.com/)がインストール済み。GitHubのアカウントが存在する。  
+必要ディスク容量：22GB  
+到達目標: ピクターズのアプリ開発環境の構築  
 <!-- 容量計算
 Flutter…2.07 GB
 Android Studio…8 GB
@@ -43,24 +43,23 @@ Android avd…8.64 GB
   `PowerShell`より`flutter doctor --android-licenses`を実行する。
 
 ### roverのインストール
-- [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  
+1. [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
 > **NOTE**
 > 管理者権限で`PowerShell`を実行する。  
 > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。    
 > `Set-ExecutionPolicy RemoteSigned -Scope Process`
 
+### リポジトリをfork
+1. [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`をする。
+1. ローカルにリポジトリを作成する。
+
 ---
 
 ## 設定
-### 開発者モードを有効にする。
-`PowerShell`より`start ms-settings:developers`を実行する。
+### 開発者モードを有効化
+1. `PowerShell`より`start ms-settings:developers`を実行する。
 > **NOTE**
 > 管理者権限でコマンドプロンプトを実行する。 
-
-### リポジトリをforkする。
-- [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`をする。
-### コード生成
-- `dart run build_runner build`
 
 ### key.propertiesの作成
 フォルダ構成図
@@ -84,14 +83,22 @@ storeFile=key.jks
 > **NOTE**  
 > ファイルの文字コード形式はUTF-8で保存する。
 
+### Android エミュレータを作成
+1. Android Studioを実行する。  
+`C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
+1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
+
 ### VSCodeの設定
-1.VSCodeで拡張機能の`Flutter`をインストールする
+1. VSCodeで拡張機能の`Flutter`をインストールする
+1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`
+
+あとは、[本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
 
 ---
 
 ## 実行
-### VSCodeの設定
-ファイル→フォルダを開く、`C:\GitHub\aipictors\app`
+### VSCode
+1. 
+1. 
 
 お疲れ様でした。
-あとは、[本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
