@@ -107,20 +107,19 @@ Android avd…8.64 GB
   - [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行する。  
 
 - ### VSCodeの設定
-  - VSCodeの拡張機能`Flutter`をインストールする。  
-  - ファイル→フォルダを開く、`C:\GitHub\aipictors\app`を選択する。  
+  - VSCodeの拡張機能(Ctrl + Shift + X)より`Flutter`をインストールする。  
+  - `ファイル`→`フォルダを開く`(Ctrl + K Ctrl + O)より`C:\GitHub\aipictors\app`を選択する。  
 
 ---
 
 ## 3. 実行
 - ### VSCode
-  - Android エミュレータを起動します。  
-    - 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#Androidエミュレータを作成)を選択する。  
-    - Android エミュレータが起動し、Android エミュレータの画面が表示されます。
-    > **NOTE**
-    > Android エミュレータの起動確認方法
-    > 1. VSCodeのステータスバーの表示が`android emulator`に変わる。
-    > 2. エミュレータの起動に成功すると、タイトル名が「Android Emulator」のウィンドウが起動する。
+  - Android エミュレータを起動する。  
+    - 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#androidエミュレータを作成)を選択するとエミュレータが起動する。  
+      > **NOTE**
+      > Android エミュレータの起動確認方法
+      > 1. VSCodeのステータスバーの表示が`android emulator`に変わる。
+      > 2. エミュレータの起動に成功すると、タイトル名が「Android Emulator」のウィンドウが起動する。
 
   - `VSCode`の左側の`実行とデバック`(Ctrl + Shift + D)より`Develop`を実行する。
 
