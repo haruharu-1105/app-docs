@@ -41,25 +41,24 @@ Android avd…8.64 GB
      C:\Users\%USERNAME%\AppData\Local\Android\Sdk
      ```
      パスを`explorer`で開き、実際のパスに置き換える。
-
-     > **NOTE**
-     > 環境変数を追加時は、PowerShellを再起動する。  
-     > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
+     - PowerShellを再起動する。 
+       > **NOTE**
+       > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
   - Android SDK のライセンスを承諾する。  
     `PowerShell`より以下コマンドを実行する。  
-      ```
-      flutter doctor --android-licenses
-      ```
+        ```
+        flutter doctor --android-licenses
+        ```
 
 - ### roverのインストール
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
-  > **NOTE**
-  > 管理者権限のPowerShellより以下のコマンドを実行します。
-  > ```
-  > Set-ExecutionPolicy RemoteSigned -Scope Process
-  > ```
-  > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要があるため。 
+    - 管理者権限のPowerShellより以下のコマンドを実行する。
+      ```
+      Set-ExecutionPolicy RemoteSigned -Scope Process
+      ```
+      > **NOTE**
+      > PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要があるため。 
 - ### リポジトリをfork
   - [aipictors/app](https://github.com/aipictors/app)のリポジトリの右側のforkの▽を押し、`Create a new fork`を実行する。
   -  ローカルにリポジトリを作成する。
@@ -73,32 +72,26 @@ Android avd…8.64 GB
     start ms-settings:developers
     ```
 - ### key.propertiesの作成
-> **NOTE**  
-> フォルダ構成図
-> ```
-> C:\GitHub\aipictors\app\android\
->                                  ├ key.jks
->                                  └ key.properties
-> ```
-
   -   `keytool`を実行する。  
-  ```
-  "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
-  ```
-
-  -   作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。
-
-  -   `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。
-key.properties
-```key.properties
-storePassword=<入力したパスワード>
-keyPassword=<入力したパスワード>
-keyAlias=key  
-storeFile=key.jks  
-```
-> **NOTE**  
-> ファイルの文字コード形式はUTF-8で保存する。
-
+      ```
+      "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
+      ```  
+  - 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。  
+  - `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。  
+    key.properties (ファイルの文字コード:UTF-8)  
+      ```key.properties
+      storePassword=<入力したパスワード>
+      keyPassword=<入力したパスワード>
+      keyAlias=key  
+      storeFile=key.jks  
+      ```
+  > **NOTE**  
+  > フォルダ構成図
+  > ```
+  > C:\GitHub\aipictors\app\android\
+  >                                ├ key.jks
+  >                                └ key.properties
+  > ```
 - ### Androidエミュレータを作成
 
   1. Android Studioを実行する。  
