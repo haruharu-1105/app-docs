@@ -88,17 +88,22 @@ storeFile=key.jks
 `C:\Program Files\Android\Android Studio\bin\studio64.exe`を実行する。  
 1. Device Manegerを開き、Create Deviceを選択し、ダイアログの指示に従う。  
 
+### 本家の手順書を実行
+1. [本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
+
 ### VSCodeの設定
 1. VSCodeで拡張機能の`Flutter`をインストールする
 1. ファイル→フォルダを開く、`C:\GitHub\aipictors\app`
-
-あとは、[本家の手順書](https://github.com/aipictors/app/blob/main/README.md)を参考に実行します。
 
 ---
 
 ## 実行
 ### VSCode
-1. 
-1. 
+1. Android エミュレータを起動する。
+画面右下のステータスバーの`Windows(windows-x64)`をクリックし、[Android エミュレータ]((Android エミュレータを作成)を選択する。
+下部の表示文字に`android emulator`が含まれていたら設定完了です。
+Android エミュレータが起動します。
+
+1. VSCodeの左側の「実行とデバック」より`develop`を実行する。
 
 お疲れ様でした。
