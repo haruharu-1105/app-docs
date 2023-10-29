@@ -1,7 +1,12 @@
 # 開発者向け　セットアップ導入手順書
 
 前提知識: デスクトップPC(Windows)を使用するソフトウェア開発者  
-到達目標: 開発環境の構築  
+到達目標: ピクターズの開発環境の構築 
+
+> **NOTE**
+> 問題発生時、
+[bing-chat](https://www.microsoft.com/ja-jp/edge/features/bing-chat?form=MT00D8)
+にエラーメッセージを貼り付けたのち、「解決方法を教えてください」で質問すると解決方法を教えて貰えます。
 
 ## ソフトウェアのインストール
 ### Flutterのインストール
@@ -12,8 +17,6 @@
 
 ### Android Studioのインストール
 1. [Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup) をインストールする。
-1. 環境変数`ANDROID_HOME`を追加する。  
-https://developer.android.com/studio/command-line/variables?hl=ja
 1. 環境変数`ANDROID_HOME`を追加する。  
 `C:\Users\<ユーザー名>\AppData\Local\Android\Sdk`  
 > **NOTE**
