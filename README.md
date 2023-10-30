@@ -81,7 +81,7 @@ Android avd…8.64 GB
     start ms-settings:developers
     ```
 - ### key.propertiesの作成
-  -   `keytool`を実行する。  
+  -   コマンドプロンプトより以下のコマンドを実行する。  
       ```
       "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkey -alias mykey -keyalg RSA -keysize 4096 -keystore mykeystore.jks 
       ```  
@@ -120,7 +120,7 @@ Android avd…8.64 GB
 ---
 
 ## 3. 実行
-- ### VSCode
+- ### VSCodeよりAndroid エミュレータを使用し実行
   - Android エミュレータを起動する。  
     - 画面右下のステータスバーの`Windows(windows-x64)`をクリックし、作成した[エミュレータ](#androidエミュレータを作成)を選択するとエミュレータが起動する。  
       > **NOTE**
