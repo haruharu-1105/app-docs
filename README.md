@@ -85,10 +85,16 @@ Android avd…8.64 GB
       ```
       "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkey -alias mykey -keyalg RSA -keysize 4096 -keystore mykeystore.jks 
       ```  
-  - 作成した`mykeystore.jks`ファイルを`C:\GitHub\aipictors\app\android\app`フォルダに設置する。  
-  - エディタで`key.properties`を新規作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。  
-    key.properties (ファイルの文字コード:UTF-8)  
-      ```key.properties
+  - カレントディレクトリに作成した`mykeystore.jks`ファイルを、以下フォルダに設置する。
+      ```
+      C:\GitHub\aipictors\app\android\app
+      ```
+  - エディタで`key.properties`を新規作成し、以下フォルダに設置する。  
+      ```
+      C:\GitHub\aipictors\app\android
+      ```
+    - key.propertiesの内容 (ファイルの文字コード:UTF-8)  
+      ```
       storePassword=<入力したパスワード>
       keyPassword=<入力したパスワード>
       keyAlias=mykey
