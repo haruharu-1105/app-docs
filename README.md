@@ -90,8 +90,8 @@ Android avd…8.64 GB
       ```key.properties
       storePassword=<入力したパスワード>
       keyPassword=<入力したパスワード>
-      keyAlias=mykey  
-      storeFile=mykeystore.jks  
+      keyAlias=mykey
+      storeFile=mykeystore.jks
       ```
   > **NOTE**  
   > フォルダ構成図
