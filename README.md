@@ -82,16 +82,16 @@ Android avd…8.64 GB
 - ### key.propertiesの作成
   -   `keytool`を実行する。  
       ```
-      "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe"
+      "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkey -alias mykey -keyalg RSA -keysize 4096 -keystore mykeystore.jks 
       ```  
-  - 作成した`key.jks`ファイルを`C:\GitHub\aipictors\app\android`フォルダに設置する。  
-  - `key.properties`を作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。  
+  - 作成した`mykeystore.jks`ファイルを`C:\GitHub\aipictors\app\android\app`フォルダに設置する。  
+  - エディタで`key.properties`を新規作成し、`C:\GitHub\aipictors\app\android`フォルダに設置する。  
     key.properties (ファイルの文字コード:UTF-8)  
       ```key.properties
       storePassword=<入力したパスワード>
       keyPassword=<入力したパスワード>
-      keyAlias=key  
-      storeFile=key.jks  
+      keyAlias=mykey  
+      storeFile=mykeystore.jks  
       ```
   > **NOTE**  
   > フォルダ構成図
