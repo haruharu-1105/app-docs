@@ -97,8 +97,9 @@ Android avd…8.64 GB
   > フォルダ構成図
   > ```
   > C:\GitHub\aipictors\app\android\
-  >                                ├ key.jks
-  >                                └ key.properties
+  >                                ├ key.properties
+  >                                └ app\
+  >                                     └ key.jks
   > ```
 - ### Androidエミュレータを作成
   - [Set up the Android emulator](https://docs.flutter.dev/get-started/install/windows#set-up-the-android-emulator)を参考に作成する。
