@@ -89,8 +89,8 @@ Android avd…8.64 GB
       ```
       - key.propertiesの内容 (ファイルの文字コード:UTF-8)  
       ```
-      storePassword=<入力したパスワード>
-      keyPassword=<入力したパスワード>
+      storePassword=<ランダムな6文字以上のパスワード>
+      keyPassword=<ランダムな6文字以上のパスワード>
       keyAlias=mykey
       storeFile=mykeystore.jks
       ```
