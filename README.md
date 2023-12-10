@@ -87,6 +87,13 @@ Android avd…8.64 GB
       ```
       C:\GitHub\aipictors\app\android
       ```
+      - key.propertiesの内容 (ファイルの文字コード:UTF-8)  
+      ```
+      storePassword=<入力したパスワード>
+      keyPassword=<入力したパスワード>
+      keyAlias=mykey
+      storeFile=mykeystore.jks
+      ```
       > **NOTE**  
       > 入力内容の補足  
       > <>は入力不要です。  
