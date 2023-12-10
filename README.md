@@ -52,7 +52,7 @@ Android avd…8.64 GB
      ```
      パスを`explorer`で開き、%USERNAME%をユーザー名に置き換え、環境変数`ANDROID_HOME`に追加する。  
      - `PowerShell`を再起動する。  
-       > **NOTE**
+       > **NOTE**  
        > 理由:実行中のPowerShellには、環境変数の変更反映されないため。  
 
   - Android SDK のライセンスを承諾する。  
@@ -66,8 +66,8 @@ Android avd…8.64 GB
       ```
       Set-ExecutionPolicy RemoteSigned -Scope Process
       ```
-      > **NOTE**
-      > ファイルダウンロードのために、PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。 
+      > **NOTE**  
+      > ファイルダウンロードのために、PowerShellの[実行ポリシー](https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/about/about_execution_policies)を一時的に変更する必要がある。  
   - [rover](https://www.apollographql.com/docs/rover/getting-started/#windows-powershell-installer)  をインストールする。
 
 - ### リポジトリをfork
@@ -87,29 +87,21 @@ Android avd…8.64 GB
       ```
       C:\GitHub\aipictors\app\android
       ```
-    - key.propertiesの内容 (ファイルの文字コード:UTF-8)  
-      ```
-      storePassword=<ランダムなパスワード>
-      keyPassword=<ランダムなパスワード>
-      keyAlias=mykey
-      storeFile=mykeystore.jks
-      ```
       > **NOTE**  
-      > 入力方法の補足情報
-      > <>は入力不要です。
+      > 入力内容の補足  
+      > <>は入力不要です。  
   -   コマンドプロンプトより以下のコマンドを実行する。  
       ```
       "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkey -alias mykey -keyalg RSA -keysize 4096 -keystore mykeystore.jks 
       ```  
       質問事項に答えていきます。
       > **NOTE**  
-      > 回答の補足情報
-      > 入力するパスワードは、`key.properties`で入力した値を入力してください。
-      > 姓名・組織単位名・都市名または地域名・都道府県名または州名を聞かれますが、開発用の自己署名証明書なので適当に入力してください。
-      > この単位に該当する 2 文字の国番号を入力してください。
-      > jp
-
-  - カレントディレクトリに作成された`mykeystore.jks`ファイルを、以下のディレクトリに移動する。
+      > 質問の回答内容の補足  
+      > 入力するパスワードは、`key.properties`で入力した値を入力してください。  
+      > 姓名・組織単位名・都市名または地域名・都道府県名または州名を聞かれますが、開発用の自己署名証明書なので適当に入力してください。  
+      > この単位に該当する 2 文字の国番号を入力してください。  
+      > jp  
+  - カレントディレクトリに作成された`mykeystore.jks`ファイルを、以下のディレクトリに移動する。  
       ```
       C:\GitHub\aipictors\app\android\app
       ```
@@ -130,9 +122,6 @@ Android avd…8.64 GB
 - ### VSCodeの設定
   - VSCodeの拡張機能(Ctrl + Shift + X)より`Flutter`をインストールする。  
   - `ファイル`→`フォルダを開く`(Ctrl + K Ctrl + O)より`C:\GitHub\aipictors\app`を選択する。  
-
-- ### VSCodeの設定
-
 
 ---
 
